@@ -30,6 +30,9 @@ The Azure DevOps API response after requesting to post a comment.
 ```yaml
 uses: oxctl/post-ado-comment-action@v1.0
 with:
+  ado-organization: 'jedis'
+  ado-project: 'The Light Side'
   ado-username: obiwan@jedis.com
   ado-personal-token: this_has_to_be_private
 ```
+
