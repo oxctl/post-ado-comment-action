@@ -1,0 +1,21 @@
+name: 'Post a comment to an ADO item'
+description: 'Posts a comment to an Azure DevOps work item via the Azure API using cURL.'
+inputs:
+  ado-organization:
+    description: 'The ADO organization.'
+    required: true
+  ado-project:
+    description: 'The ADO project.'
+    required: true
+  ado-username:
+    description: 'The ADO username that will be the owner of the comment IMPORTANT: Do not reveal this from the caller action, use secrets.'
+    required: true
+  ado-personal-token:
+    description: 'The ADO personal token for the username. IMPORTANT: Do not reveal this from the caller action, use secrets.'
+    required: true
+outputs:
+  api-response:
+    description: 'The response obtained by the Azure DevOps API'
+runs:
+  using: 'node16'
+  main: 'index.js'
