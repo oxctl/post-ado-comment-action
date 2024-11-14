@@ -1,6 +1,6 @@
 {
   "name": "post-ado-comment-action",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Contains a custom Github action to post comments to Azure DevOps work items.",
   "keywords": [],
   "homepage": "https://github.com/oxctl/post-ado-comment-action#readme",
