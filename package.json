@@ -1,25 +1,25 @@
 {
   "name": "post-ado-comment-action",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Contains a custom Github action to post comments to Azure DevOps work items.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "keywords": [],
+  "homepage": "https://github.com/oxctl/post-ado-comment-action#readme",
+  "bugs": {
+    "url": "https://github.com/oxctl/post-ado-comment-action/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/oxctl/post-ado-comment-action.git"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/oxctl/post-ado-comment-action/issues"
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/oxctl/post-ado-comment-action#readme",
   "dependencies": {
     "@actions/core": "^1.10.1",
-    "@actions/github": "^5.1.1",
-    "axios": "^1.5.0"
+    "@actions/github": "^6.0.0",
+    "axios": "^1.8.2"
   }
 }
