@@ -17,5 +17,5 @@ outputs:
   api-response:
     description: 'The response obtained by the Azure DevOps API'
 runs:
-  using: 'node20'
+  using: 'node24'
   main: 'index.js'
